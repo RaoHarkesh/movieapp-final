@@ -121,7 +121,7 @@ class Fav extends Component {
         //    })
 
         return (
-            <>
+            <div className="bigcontainer">
                 <div className="container" style={{"marginTop":"7vmax"}}>
                     <div class="row">
                         <div className="col">
@@ -170,7 +170,7 @@ class Fav extends Component {
 
                     </div>
                 </div>
-            </>
+            </div>
         )
     }
 }

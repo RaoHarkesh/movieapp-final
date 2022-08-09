@@ -131,7 +131,7 @@ class Movies extends Component {
         // console.log(this.state.favouritesId);
         return (
             <>
-                <div className=" trending"><strong>Trending</strong></div>
+                
                 <div className="movielist">
                     {this.state.movies.map((movieele) => (
 
@@ -153,13 +153,14 @@ class Movies extends Component {
 
 
                     ))}
-                </div>
-                
-                <div className="my-page">
+                    <div className="my-page">
                     <button onClick={this.handlePrevious} className="mybutton">Backward</button>
                     <span className="curr-page">{this.state.currpage}</span>
                     <button onClick={this.handleNext} className="mybutton">Forward</button>
                 </div>
+                </div>
+                
+                
             </>
         )
     }

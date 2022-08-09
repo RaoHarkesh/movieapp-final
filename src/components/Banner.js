@@ -81,6 +81,7 @@ export default class Banner extends Component {
                                         <p style={{color:"white"}} className="card-text banner-card-text">{this.state.banner[idx].overview}</p>
                                         
                                     </div>
+                                    <div className=" trending">Trending</div>
                             </div>
 
                         </>
